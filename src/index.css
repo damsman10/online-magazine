@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+:root {
+  --background: #fff;
+  --font-color: #000;
+
+}
+
+[data-theme = "dark"] {
+  --background: #000;
+  --font-color: #fff;
+}
+
+
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+}
