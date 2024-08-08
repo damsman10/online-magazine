@@ -5,14 +5,19 @@ const Top = () => {
       <div>
         
         <div className="left-menu">
-            <NAVLINK>INSPIRATION</NAVLINK>
-            <NAVLINK>TRAVEL</NAVLINK>
-            <NAVLINK>BEAUTY</NAVLINK>
-            <NAVLINK>PURCHASE THEME</NAVLINK>
+            <ul>
+                <li>INSPIRATION</li>
+                <li>TRAVEL</li>
+                <li>BEAUTY</li>
+                <li>PURCHASE THEME</li>
+            </ul>
         </div>
 
         <div className="right-menu">
-
+            <p>FOLLOW US</p>
+            <div className="icons">
+                <i className="fa-brands fa-facebook-f"></i>
+            </div>
         </div>
 
       </div>
