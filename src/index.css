@@ -11,14 +11,40 @@
 :root {
   --background: #fff;
   --font-color: #000;
+  /* --facebook-color: hsl(221, 44%, 41%);
+  --twitter-color: hsl(203, 89%, 53%);
+  --instagram-color: hsl(352, 95%, 42%);
+  --linkedin-color: hsl(201, 100%, 35%); */
 
 }
+
 
 [data-theme = "dark"] {
   --background: #000;
   --font-color: #fff;
+  /* --facebook-color: hsl(221, 44%, 61%);
+  --twitter-color: hsl(203, 82%, 67%);
+  --instagram-color: hsl(352, 95%, 82%);
+  --linkedin-color: hsl(201, 100%, 55%); */
+  
 }
 
+svg {
+  fill: var(--font-color);
+}
+
+/* .facebook {
+  fill: var(--facebook-color);
+}
+.twitter {
+  fill: var(--twitter-color);
+}
+.instagram {
+  fill: var(--instagram-color);
+}
+.linkedin {
+  fill: var(--linkedin-color);
+} */
 
 
 body {
