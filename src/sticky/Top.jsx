@@ -8,7 +8,7 @@ const Top = () => {
             <div className = "flex justify-between items-center w-4/5 m-auto my-4">
                 
                 <div  className="left-menu">
-                    <ul class="flex justify-between items-center gap-4">
+                    <ul className="flex justify-between items-center gap-4">
                         <li className='text-sm'>INSPIRATION</li>
                         <li className='text-sm'>TRAVEL</li>
                         <li className='text-sm'>BEAUTY</li>
