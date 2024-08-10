@@ -1,12 +1,11 @@
-import Header from "./components/Header"
-import Top from "./components/top"
+
+import Home from "./pages/Home"
 
 
 const App = () => {
   return (
     <div>
-      <Top />
-      <Header />
+      <Home />
     </div>
   )
 }
