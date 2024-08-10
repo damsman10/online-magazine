@@ -5,7 +5,7 @@ const Top = () => {
     return (
     
         <div className='h-10 border-b-2 border-solid'>
-            <div className = "flex justify-between items-center w-5/6 m-auto my-4">
+            <div className = "flex justify-between items-center w-4/5 m-auto my-4">
                 
                 <div  className="left-menu">
                     <ul class="flex justify-between items-center gap-4">
