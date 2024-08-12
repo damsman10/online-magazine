@@ -1,3 +1,4 @@
+import EditorPicks from "../components/EditorPicks";
 import Headlines from "../components/Headlines";
 import Navigation from "../components/Navigation"
 import TopPosts from "../components/TopPosts";
@@ -12,6 +13,7 @@ const Home = () => {
         <Headlines />
         <Welcome />
         <TopPosts />
+        <EditorPicks />
     </div>
   )
 }

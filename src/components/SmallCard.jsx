@@ -3,15 +3,15 @@
 
 const SmallCard = (props) => {
   return (
-    <div className="w-[22rem] h-[18rem] flex flex-col border border-black mb-12">
-        <div className="top h-[70%] bg-cover bg-center border border-black" style={{backgroundImage: `url(${props.image})`}}>
+    <div className="w-[22rem] h-[23rem] flex flex-col mb-12">
+        <div className="top h-[55%] bg-cover bg-center" style={{backgroundImage: `url(${props.image})`}}>
             {/* <img src={props.image} width="50rem" alt="" /> */}
         </div>
 
-        <div className="botton h-[40%] text-center">
-            <p className="category text-[#A2A591]">{props.category}</p>
-            <h3>{props.title}</h3>
-            <p>{props.date}</p>
+        <div className="botton h-[45%] text-center py-4">
+            <p className="category text-[#A2A591] my-[0.1rem] text-[0.8rem] font-bold">{props.category}</p>
+            <h3 className="title font-bold my-2">{props.title}</h3>
+            <p className="date text-[#9C9793] text-sm font-semibold">{props.date}</p>
         </div>
       
     </div>
