@@ -6,7 +6,7 @@ import BigCard from "./BigCard"
 
 const EditorPicks = () => {
   return (
-    <div className="picks w-4/5 m-auto text-center pb-6 border border-b">
+    <div className="picks w-4/5 m-auto text-center pb-6 border-b">
         <p className="text-[#9C9793] text-[0.8rem] mt-12">BEST POSTS FROM DAMMY</p>
         <p className="my-4">EDITOR'S PICKS</p>
         
