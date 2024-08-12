@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: grenze;
+  src: url(../public/GrenzeGotisch-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: comic;
+  src: url(../public/ComicNeue-Regular.ttf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -33,22 +43,8 @@ svg {
   fill: var(--font-color);
 }
 
-/* .facebook {
-  fill: var(--facebook-color);
-}
-.twitter {
-  fill: var(--twitter-color);
-}
-.instagram {
-  fill: var(--instagram-color);
-}
-.linkedin {
-  fill: var(--linkedin-color);
-} */
-
-
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: comic, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   min-width: 320px;
   min-height: 100vh;
 }

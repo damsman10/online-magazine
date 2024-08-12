@@ -26,7 +26,7 @@ const Headlines = () => {
             </div>
             <div className="bottom h-[43%] bg-[#3F505A] p-6">
                 <h3 className="text-[white] text-xl mb-4">Web Dev category</h3>
-                <p className="text-[white] text-sm">The concept of web development is shaped by things with meaning.</p>
+                <p className="text-[white] text-sm leading-6">The concept of web development is shaped by things with meaning.</p>
             </div>
         </div>
 
