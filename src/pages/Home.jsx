@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation"
 import Newsletter from "../components/Newsletter";
 import TopPosts from "../components/TopPosts";
 import Welcome from "../components/Welcome";
+import Footer from "../sticky/Footer";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
         <TopPosts />
         <EditorPicks />
         <Newsletter />
+        <Footer />
     </div>
   )
 }

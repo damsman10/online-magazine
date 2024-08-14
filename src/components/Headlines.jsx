@@ -9,7 +9,7 @@ const Headlines = () => {
         <div className="left-head flex justify-between w-2/4 bg-[#d9dce4]">
             
             <div className="text p-7 bg-[#e7ebee] w-2/3">
-                <h3 className="font-bold">ABOUT ME</h3>
+                <h3 className="font-bold text-[0.8rem]">ABOUT ME</h3>
                 <h5 className="my-5 font-bold text-[1.5rem]">Hi to everyone. <br /> My name is Dammy!</h5>
                 <p className="mb-6 leading-8 w-4/5">I am the Chief Editor at Dammy Bytes. Dammy Bytes is a daily updated tech blog aiming to inspire and inform readers on events, and trends in the IT Sphere </p>
                 <Button bg="white" text="READ MORE" />
