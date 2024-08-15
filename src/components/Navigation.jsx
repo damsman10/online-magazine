@@ -9,10 +9,11 @@ const Navigation = () => {
         <div className="nav-middle">
             <ul className="font-bold flex justify-between items-center gap-16">
                 <li className="cursor-pointer">HOME</li>
-                <li>INSPIRATION</li>
+                <a href="/"><li>INSPIRATION</li></a>
                 <li>WEB DEV</li>
-                <li>ABOUT</li>
-                <li>CONTACT ME</li>
+                <li>TRAINING</li>
+                <a href="/about"><li>ABOUT</li></a>
+                <li>CONTACT</li>
             </ul>
         </div>
         <div className="nav-right">
