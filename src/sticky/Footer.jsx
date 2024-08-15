@@ -17,6 +17,9 @@ const Footer = () => {
                 <li>CONTACT US</li>
             </ul>
         </div>
+        
+
+              
 
         <div className="copyright">
             <p className="text-center mt-6">Powered by <span className="font-bold">D-Oracle Inc</span></p>
