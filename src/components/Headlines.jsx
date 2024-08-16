@@ -5,23 +5,26 @@ import mb from '../assets/mb.jpg'
 
 const Headlines = () => {
   return (
-    <div className="flex my-16 justify-between m-auto w-4/5 h-96">
-        <div className="left-head flex justify-between w-2/4 bg-[#d9dce4]">
+    <div className="flex flex-col lg:flex-row my-16 justify-between m-auto w-4/5 gap-4">
+        <div className="left-head flex flex-col-reverse lg:flex-row justify-between w-full lg:w-2/4 bg-[#d9dce4]">
             
-            <div className="text p-7 bg-[#e7ebee] w-2/3">
+            <div className="text p-7 bg-[#e7ebee] w-full lg:w-2/3 text-center lg:text-left">
                 <h3 className="font-bold text-[0.8rem]">ABOUT ME</h3>
                 <h5 className="my-5 font-bold text-[1.5rem]">Hi to everyone. <br /> My name is Dammy!</h5>
-                <p className="mb-6 leading-8 w-4/5">I am the Chief Editor at Dammy Bytes. Dammy Bytes is a daily updated tech blog aiming to inspire and inform readers on events, and trends in the IT Sphere </p>
+                <p className="mb-6 leading-8 w-[90%]">I am the Chief Editor at Dammy Bytes. Dammy Bytes is a daily updated tech blog aiming to inspire and inform readers on events, and trends in the IT Sphere </p>
                 <Button bg="white" text="READ MORE" />
             </div>
 
-            <div className="image w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${dammy})`}}>
+            <div className="image h-[20vh] w-full lg:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${dammy})`}}>
 
             </div>
         </div>
 
-        <div className="middle-head w-[22%] bg-cover bg-center">
-            <div className="top h-[57%]" style={{backgroundImage: `url(${mb})`}}>
+
+
+
+        <div className="middle-head w-full lg:w-[22%] bg-cover bg-center flex flex-row lg:flex-col">
+            <div className="top w-[50%] lg:w-[100%] lg:h-[57%]" style={{backgroundImage: `url(${mb})`}}>
                 
             </div>
             <div className="bottom h-[43%] bg-[#3F505A] p-6">
@@ -30,9 +33,9 @@ const Headlines = () => {
             </div>
         </div>
 
-        <div className="right-head w-[22%] bg-[#3F505A] p-10 text-center">
+        <div className="right-head w-full lg:w-[22%] bg-[#3F505A] p-10 text-center">
             <p className="text-center font-bold text-[white] text-[0.8rem]">INSPIRATION</p>
-            <h2 className="text-center text-[1.3rem] text-[white] my-6 px-12">Inspiration category</h2>
+            <h2 className="text-center text-[1.3rem] text-[white] my-6">Inspiration category</h2>
             <p className="text-center text-[white] leading-8 mb-8">Coming from two different cultures has been instrumental in how we've approached</p>
             <Button color="white" text="READ MORE"/>
         </div>

@@ -10,7 +10,7 @@ const TopPosts = () => {
     <div className="popular w-4/5 m-auto pb-1 border-b-2">
         <p className="text-center mt-10 text-[0.8rem] text-[#A2A591]">MOST POPULAR POSTS</p>
         <h3 className="text-center my-4">TOP POSTS</h3>
-        <div className="cards my-2 flex justify-between items-center gap-8">
+        <div className="cards my-2 flex flex-col lg:flex-row justify-between items-center gap-8">
 
             <SmallCard image={webdev}
              category="INSPIRATION"
