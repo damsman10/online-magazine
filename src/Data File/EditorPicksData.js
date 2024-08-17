@@ -12,7 +12,7 @@ const editorPicks = [
       id: 2,
       title: "Why You Should Learn TypeScript",
       date: "2024-08-14",
-      category: "Web Dev",
+      category: "Web Building",
       excerpt: "Explore the benefits of using TypeScript in modern web development...",
       image: "../../public/featuredimages/frontend.jpg",
       content: "Full content of the blog post...",

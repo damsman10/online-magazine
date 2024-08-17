@@ -8,16 +8,16 @@ const Navigation = () => {
         </div>
         <div className="nav-middle">
             <ul className="font-bold hidden lg:flex lg:justify-between lg:items-center lg:gap-16">
-                <NavLink to={"/"} className={({ isActive }) => isActive ? "underline" : ""}><li>HOME</li></NavLink>
+                <NavLink to={"/"} className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>HOME</li></NavLink>
 
-                <NavLink to={"/inspiration"}  className={({ isActive }) => isActive ? "underline" : ""}><li>INSPIRATION</li></NavLink>
+                <NavLink to={"/inspiration"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>INSPIRATION</li></NavLink>
 
-                <NavLink to={"/webdev"}  className={({ isActive }) => isActive ? "underline" : ""}><li>WEB DEV</li></NavLink>
+                <NavLink to={"/webdev"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>WEB DEV</li></NavLink>
 
-                <NavLink to={"/training"}  className={({ isActive }) => isActive ? "underline" : ""}><li>TRAINING</li></NavLink>
+                <NavLink to={"/training"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>TRAINING</li></NavLink>
 
-                <NavLink to={"/about"}  className={({ isActive }) => isActive ? "underline" : ""}><li>ABOUT</li></NavLink>
-                <NavLink to={"/contact"}><li>CONTACT</li></NavLink>
+                <NavLink to={"/about"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>ABOUT</li></NavLink>
+                <NavLink to={"/contact"} className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>CONTACT</li></NavLink>
             </ul>
         </div>
         <div className="nav-right">
