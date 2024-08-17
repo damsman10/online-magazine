@@ -10,7 +10,8 @@ const TopPosts = () => {
 
           {posts.map((post) => (
             <SmallCard 
-              key={post.id}
+              key={post.slug}
+              slug={post.slug}
               image={post.image}
               category={post.category}
               title={post.title}

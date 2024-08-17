@@ -1,7 +1,7 @@
-// PostsData.jsx
+
 const posts = [
     {
-      slug: 'web-development',
+      slug: 'web development',
       title: "The Basics of Web Development: Where to Start?",
       date: "2024-08-15",
       category: "Web Dev",
@@ -16,10 +16,10 @@ const posts = [
       category: "Inspiration",
       excerpt: "Here’s some inspiration for developers to keep pushing forward...",
       image: "../../public/featuredimages/reactjsimg.jpg",
-      content: "Full content of the blog post...",
+      content: `Global human rights group, Amnesty International, has condemned the Nigerian Government for arraigning over 1,000 protesters in court. DAILY POST recalls that the 10 days hunger protests turned violent in some states, leading to the arrest of several protesters.`,
     },
     {
-      slug: 'frontend-backend',
+      id: 3,
       title: "Understanding the Differences Between Frontend and Backend Development",
       date: "2024-08-12",
       category: "Inspiration",
@@ -28,8 +28,8 @@ const posts = [
       content: "Full content of the blog post...",
     },
     {
-      slug: 'fronten',
-      title: "Understanding the  Between Frontend and Backend Development",
+      id: 4,
+      title: "Understanding the Differences Between Frontend and Backend Development",
       date: "2024-08-12",
       category: "Inspiration",
       excerpt: "Here’s some inspiration for developers to keep pushing forward...",

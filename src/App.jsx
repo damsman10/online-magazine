@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Footer from './sticky/Footer';
 import NotFound from './pages/NotFound';
+import BlogPost from './pages/BlogPost';
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/post/:slug" element={<BlogPost />}></Route>
             <Route path="*" element={<NotFound />}></Route>
         </Routes>
         
