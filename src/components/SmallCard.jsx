@@ -3,7 +3,7 @@
 
 const SmallCard = (props) => {
   return (
-    <div className="w-[22rem] h-[23rem] flex flex-col mb-12">
+    <div className="w-[18rem] md:w-[22rem] h-[23rem] flex flex-col mb-12">
         <div className="top h-[55%] bg-cover bg-center" style={{backgroundImage: `url(${props.image})`}}>
             {/* <img src={props.image} width="50rem" alt="" /> */}
         </div>

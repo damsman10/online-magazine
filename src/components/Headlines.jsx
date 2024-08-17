@@ -15,7 +15,7 @@ const Headlines = () => {
                 <Button bg="white" text="READ MORE" />
             </div>
 
-            <div className="image h-[20vh] w-full lg:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${dammy})`}}>
+            <div className="image h-[20vh] lg:h-full w-full lg:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${dammy})`}}>
 
             </div>
         </div>

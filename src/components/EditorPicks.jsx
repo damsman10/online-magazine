@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import feature from '../assets/featuredimages/webdev.jpg'
-
 import BigCard from "./BigCard"
+import EditorPicksData from "../Data File/EditorPicksData"
 
 
 const EditorPicks = () => {
@@ -10,8 +9,18 @@ const EditorPicks = () => {
         <p className="text-[#9C9793] text-[0.8rem] mt-12">BEST POSTS FROM DAMMY</p>
         <p className="my-4">EDITOR'S PICKS</p>
         
-        <div className="picks flex justify-between items-center flex-wrap">
-            <BigCard pic={feature} date="MAY 11, 2016" 
+        <div className="picks flex flex-col lg:flex-row gap-4 lg:justify-center 2xl:justify-between items-center md:flex-wrap">
+        {EditorPicksData.map((pick) => (
+          <BigCard 
+            key={pick.id}
+            pic={pick.image}
+            category={pick.category}
+            title={pick.title}
+            date={pick.date}
+          />
+        ))}
+            
+            {/* <BigCard pic={feature} date="MAY 11, 2016" 
             title="Beauty Treatments Worth Traveling For" 
             category="INSPIRATION" 
             />
@@ -29,7 +38,7 @@ const EditorPicks = () => {
             <BigCard pic={feature} date="MAY 11, 2016" 
             title="Beauty Treatments Worth Traveling For" 
             category="INSPIRATION" 
-            />
+            /> */}
 
         </div>
       

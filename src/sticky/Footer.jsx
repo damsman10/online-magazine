@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
 
         <div className="links items-center">
-            <ul className="flex justify-between items-center w-2/6 m-auto font-bold text-sm">
+            <ul className="flex flex-col md:flex-row  justify-between items-center gap-4 w-3/6 m-auto font-bold text-sm ">
                 <li>HOME</li>
                 <li>INSPIRATION</li>
                 <li>WEB DEV</li>
