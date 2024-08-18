@@ -5,14 +5,14 @@ const AboutDetails = () => {
   return (
     <>
    
-    <div className="about-details w-4/5 m-auto flex justify-center gap-4 pb-8 border-b">
+    <div className="about-details w-4/5 m-auto flex flex-col lg:flex-row justify-center  gap-4 pb-8 border-b">
         <div className="left w-2/5">
             <img src={dammy} alt="" width="290rem" />
         </div>
 
-        <div className="right w-3/5">
+        <div className="right w-full lg:w-3/5">
             <div>
-                <h2 className='text-[3.2rem] font-bold'>Welcome to Dammy Bytes!</h2>
+                <h2 className='text-[2rem] lg:text-[3.2rem] font-bold'>Welcome to Dammy Bytes!</h2>
 
                 <p className='text-[1.2rem]'>Hi I'm Dammy, the creator and author of Dammy Bytes. I'm passionate about technology, coding, and everything in between. With a strong background in web development and a drive to stay at the forefront of the tech space, I've built this blog to share my journey, insights, and knowledge with fellow tech enthusiasts.
                 </p>
@@ -41,15 +41,15 @@ const AboutDetails = () => {
 
     <div className="benefits mt-10 m-auto w-4/5 text-center border-b">
         <h2 className='text-[2.5rem] font-bold mb-2'>What You'll Find Here</h2>
-        <p>
-            <ul className='text-[1.3rem] w-4/5 m-auto'>
+        
+        <ul className='text-[1.3rem] w-4/5 m-auto'>
                 <li><span className='font-semibold'>In-Depth Tutorials</span>: Step-by-step guides to help you navigate various aspects of web development.</li>
                 <li><span className='font-semibold'>Tech Insights:</span> My take on the latest trends, tools, and technologies in the industry.</li>
                 <li><span className='font-semibold'>Personal Stories:</span> Reflections on my experiences, both successes and challenges, in the tech world.</li>
                 <li><span className='font-semibold'>Project Showcases:</span> A look at some of the projects I've worked on, with insights into the process and lessons learned.</li>
-            </ul>
+        </ul>
          
-        </p>
+        
 
 
         <h2 className='text-[2.5rem] font-bold mt-16 border-t pt-6'>

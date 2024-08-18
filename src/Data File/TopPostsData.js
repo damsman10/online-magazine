@@ -1,13 +1,15 @@
 // PostsData.jsx
 const posts = [
     {
-      slug: 'web-development',
-      title: "The Basics of Web Development: Where to Start?",
+      slug: 'web-development-basics',
+      title: "Understanding The Basics of Web Development",
       date: "2024-08-15",
       category: "Web Dev",
       excerpt: "Learn the basics of web development in this introductory post...",
       image: "../../public/featuredimages/webdev.jpg",
-      content: "Full content of the blog post...",
+      content: `<p>Web development is a critical skill in today's digital world. This post will cover the fundamentals of web development, including an overview of HTML, CSS, and JavaScript.</p>
+      <br />
+      <p>It will also discuss the importance of responsive design, web accessibility, and the role of web developers in creating user-friendly websites.</p>`,
     },
     {
       slug: 'why-learn-react',
