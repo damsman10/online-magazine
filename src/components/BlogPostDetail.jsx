@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import posts from "../Data File/TopPostsData";
+import DOMPurify from "dompurify";
 
 const BlogPostDetail = () => {
   const { slug } = useParams(); 
@@ -8,6 +9,9 @@ const BlogPostDetail = () => {
   if (!post) {
     return <div>Post not found</div>;
   }
+
+  // Sanitize the content before rendering
+  const sanitizedContent = DOMPurify.sanitize(post.content);
 
   return (
     <div className="post-detail lg:w-[70%] w-full m-auto">
@@ -20,7 +24,7 @@ const BlogPostDetail = () => {
       <div
         className="post-content text-justify text-[1.3rem] leading-8 mt-10"
         //rendering the content with dangerouslySetHTML instead of  <p>{post.content}</p>
-        dangerouslySetInnerHTML={{ __html: post.content }} 
+        dangerouslySetInnerHTML={{ __html: sanitizedContent }} //render the sanitized content
       />
     </div>
   );
