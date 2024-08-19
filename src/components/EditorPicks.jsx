@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import BigCard from "./BigCard"
-import EditorPicksData from "../Data File/EditorPicksData"
+import Posts from "../Data File/AllPostsData"
 
 
 const EditorPicks = () => {
@@ -10,13 +10,14 @@ const EditorPicks = () => {
         <p className="my-4">EDITOR'S PICKS</p>
         
         <div className="picks flex flex-col lg:flex-row gap-4 lg:justify-center 2xl:justify-between items-center md:flex-wrap">
-        {EditorPicksData.map((pick) => (
+        {Posts.map((post) => (
           <BigCard 
-            key={pick.id}
-            pic={pick.image}
-            category={pick.category}
-            title={pick.title}
-            date={pick.date}
+            key={post.id}
+            slug={post.slug}
+            pic={post.image}
+            category={post.category}
+            title={post.title}
+            date={post.date}
           />
         ))}
             

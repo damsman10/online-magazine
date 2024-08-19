@@ -1,5 +1,5 @@
 import SmallCard from "./SmallCard"
-import posts from "../Data File/TopPostsData"
+import posts from "../Data File/AllPostsData"
 
 const TopPosts = () => {
   return (

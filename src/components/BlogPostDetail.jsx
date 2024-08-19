@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import posts from "../Data File/TopPostsData";
+import posts from "../Data File/AllPostsData";
 import DOMPurify from "dompurify";
 
 const BlogPostDetail = () => {
