@@ -10,9 +10,9 @@ const Navigation = () => {
             <ul className="font-bold flex justify-between items-center gap-16">
                 <NavLink to={"/"} className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>HOME</li></NavLink>
 
-                <NavLink to={"/inspiration"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>INSPIRATION</li></NavLink>
+                <NavLink to={"/category/inspiration"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>INSPIRATION</li></NavLink>
 
-                <NavLink to={"/webdev"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>WEB DEV</li></NavLink>
+                <NavLink to={"/category/webdev"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>WEB DEV</li></NavLink>
 
                 <NavLink to={"/training"}  className={({ isActive }) => isActive ? "border-b-2 border-black" : ""}><li>TRAINING</li></NavLink>
 

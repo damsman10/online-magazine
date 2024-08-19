@@ -6,7 +6,7 @@ import Newsletter from "../components/Newsletter"
 const About = () => {
   return (
     <div>
-        <AboutHero />
+        <AboutHero text="About Me"/>
         <AboutDetails />
         <Newsletter />
     </div>
