@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import dammy from '../assets/DamiPhoto.jpg'
 
 const AboutDetails = () => {
   return (
@@ -7,7 +6,7 @@ const AboutDetails = () => {
    
     <div className="about-details w-4/5 m-auto flex flex-col lg:flex-row justify-center  gap-4 pb-8 border-b">
         <div className="left w-2/5">
-            <img src={dammy} alt="" width="290rem" />
+            {/* <img src='../../public/DamiPhoto.JPG' alt="" width="290rem" /> */}
         </div>
 
         <div className="right w-full lg:w-3/5">

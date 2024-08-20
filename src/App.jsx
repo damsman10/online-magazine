@@ -14,7 +14,7 @@ import Navigation from './components/Navigation';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/online-magazine">
       <div>
         <Header />
         <Navigation />
