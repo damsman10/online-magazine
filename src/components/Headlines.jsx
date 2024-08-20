@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Button from "./Button"
-import dammy from '../assets/DamiPhoto.JPG'
 import mb from '../assets/mb.jpg'
+import DamiPhoto from '../assets/DamiPhoto.JPG'
 
 const Headlines = () => {
+    
   return (
     <div className="flex flex-col lg:flex-row my-16 justify-between m-auto w-4/5 gap-4">
         <div className="left-head flex flex-col-reverse lg:flex-row justify-between w-full lg:w-2/4 bg-[#d9dce4]">
@@ -15,7 +16,7 @@ const Headlines = () => {
                 <Button bg="white" text="READ MORE" />
             </div>
 
-            <div className="image h-[20vh] lg:h-full w-full lg:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${dammy})`}}>
+            <div className="image h-[20vh] lg:h-full w-full lg:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(${DamiPhoto})`}}>
 
             </div>
         </div>
