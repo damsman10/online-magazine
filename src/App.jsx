@@ -13,7 +13,7 @@ import Navigation from './components/Navigation';
 
 const App = () => {
   return (
-    <Router basename="/online-magazine">
+    <Router>
       <div>
         <Header />
         <Navigation />
